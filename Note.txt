@@ -1,0 +1,28 @@
+
+
+We split the work in a way that both of us contributed in a complementary and fairly equal way.
+
+For the presentation, Alireza was responsible for Part One – the conceptual framework and model families.
+He gathered the material, created the slides, and presented that part. Abhishek handled Part Two, which focused on macroeconomic PD modeling.
+He collected the references, prepared the slides for his section, and presented that part as well.
+
+For the analysis, Alireza developed the full Python pipeline from scratch — including data gathering, AR(1) modeling, simulation, and forecasting.
+Abhishek contributed by refining the analysis, aligning it with the structure of the reference paper, and reviewing the overall code quality to make it presentation-ready.
+So while Alireza focused more on the implementation, Abhishek made sure it matched the academic direction and presentation needs.
+
+As for the seminar paper, Alireza wrote the first complete draft.
+Abhishek then revised and improved parts of the text for clarity, structure, and alignment with the empirical results.
+The final paper reflects the joint effort of both contributors, each supporting the other’s part to reach a coherent result.
+
+A quick note from Alireza:
+
+When I initially began running the analysis code, I encountered compatibility issues between certain packages under Python 3.13.
+To resolve this, I downgraded to Python 3.11, which ensured full compatibility and error-free execution of all dependencies.
+
+The attached requirements.txt file reflects the working package versions for Python 3.11.
+To avoid any runtime errors, please set up your environment using Python 3.11, not 3.13 or higher.
+
+Also, in the raw folder you can find the initial raw data we used for the project. Make sure use either raw folder or panel_data csv
+when running the scripts, any way using raw folder and Data extraction script, they give you the panel.
+
+Thank you!
